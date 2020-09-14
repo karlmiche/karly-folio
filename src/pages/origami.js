@@ -1,6 +1,6 @@
 import React, { useEffect }from "react";
 import { Link } from "gatsby"
-import { gsap, Power4} from "gsap";
+import { gsap } from "gsap";
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 import Layout from "../components/layout";

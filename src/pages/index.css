@@ -1,0 +1,115 @@
+.wave {
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;  /* Never stop waving :) */
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+  }
+
+  .circle {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: 3px 3px darkblue;
+    opacity: 0.5;
+  }
+
+  
+  .underline {
+    color: rgb(100, 78, 221);
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  .underline:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: rgb(100, 78, 221);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .underline:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+  .desktop-skills-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      /* background-color: rgb(100, 78, 221);
+      color: rgb(248, 235, 191); */
+      /* border-radius: 10px;
+      padding: 5px 5px; */
+  }
+
+  .project-grid-container {
+      display: grid;
+      width: 90%;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 40px;
+  }
+
+  .mobile-skills-container {
+      display: none;
+  }
+
+  .blurb-container {
+    box-shadow: 4px 3px 6px rgb(160, 160, 160);
+    background: rgb(100, 78, 221);
+    border-radius: 30px;
+    padding: 15px;
+    margin-bottom: 5%;
+  }
+
+  .blurb {
+      margin-top: 10px;
+      opacity: 0.2;
+      color: white;
+      font-weight: 800;
+  }
+
+  .intro-pic { 
+    transition: all .2s ease-in-out; 
+    box-shadow: 4px 3px 6px rgb(160, 160, 160);
+  }
+  .intro-pic:hover { transform: scale(1.1); }
+
+  .display-pic {
+    box-shadow: 4px 3px 6px rgb(160, 160, 160);
+  }
+
+  /* FOR MOBILE PHONES */
+
+  /* -----Iphones 6+--- */
+  /* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .desktop-skills-container {
+        display: none;
+    }
+
+    .mobile-skills-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

@@ -76,11 +76,21 @@ const Innervue = () => {
     <img src={loveorder3} className="display-pic" alt="screenshot of a light tan web app with a purple section titled 'We can now make a poem!' about neural networks."></img>
     <h1 className="underline hover hover1">key features</h1><br />
     <img src={loveorder4} className="display-pic" alt="a screenshot of a light tan web app"></img>
+    <div className="blurb-container">
+      <p className="blurb">This project features two main views: users can toggle between “poem view” and an aptly-named “What Is This?”</p>
+      <p className="blurb">The poem view allows a user to generate a random sonnet(ish) from comments on New York Times articles. I have to disclaim the sonnet as only a sonnet, ish, because the sonnet is “hard-coded,” where you have to write a lot of code by hand to create a solution. I broke down the syntax, or parts of speech in a sonnet, and have some functions that categorize and sort these parts of speech from the comments. This is why the poem returned looks fairly similar each time you click for a new poem, it’s essentially made from a template. </p>
+      <p className="blurb">The second section is a brief “scrollytelling” - where information is passed to a user in bits and bits in a scroll-based animation - explaining what Natural Language Processing is, why the poem doesn’t really make sense or seem as if it’s written by humans, and demonstrates the “template” that I cooked up using the Google NLP API. </p>
+    </div>
     <img src={loveorder5} className="display-pic" alt="screenshot of a light tan web app with a section of code on the page."></img>
     <h1 className="underline hover hover1">lessons learned</h1><br />
+    <p>I felt like the most valuable lessons I learned during this project were from learning to integrate GSAP animations into JavaScript-based applications. I came away from this project with a stronger understanding of vanilla CSS3 and how to manipulate CSS. Additionally, I got to practice wiring up a Flask backend with a React.js frontend.</p>
     <img src={loveorder6} className="display-pic" alt="screenshot of a light tan web app with a different section of code."></img>
     <img src={loveorder7} className="display-pic" alt="screenshot of a light tan web app with two lines of poetry on the screen."></img>
     <h1 className="underline hover hover1">next steps and updates</h1><br />
+    <div className="blurb-container">
+      <p className="blurb">First, I plan to deploy love and order the week of September 15th, 2020, so please keep an eye out!</p>
+      <p className="blurb">Second, I would love to train a dataset to recognize poems and play around with Tensorflow so that this app accepts the choice of a New York Times article and generates a more “human” poem. I’m planning on training a dataset on T.S. Eliot poems and to implement these changes by October 2020. </p>
+    </div>
     <Link to="/"><h3>homepage</h3></Link>
   </Layout>
 )}

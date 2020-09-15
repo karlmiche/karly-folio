@@ -119,6 +119,8 @@
   .intro-pic { 
     transition: all .2s ease-in-out; 
     box-shadow: 4px 3px 6px rgb(160, 160, 160);
+    height: 17vw;
+    width: auto;
   }
   .intro-pic:hover { transform: scale(1.1); }
 

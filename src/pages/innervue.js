@@ -71,15 +71,15 @@ innervue is a sentiment-analysis application to help job-seekers practice bringi
     <img className="display-pic" src={innervue1} alt="a man is looking at himself in a mirror. This is a screenshot of a web app"></img>
     <h1 className="underline hover hover1">project purpose</h1><br />
     <div className="blurb-container">
-      <p className="blurb">innervue is a class group project created with Neri Ramirez and Wes Bailey. Neri came up with the idea for this application during a course outcomes session, when our job coach mentioned she can tell whether or not an interviewee has prepared enough for their interview based on how positive or negative their responses are. She said positivity shows an interviewee is able to reflect on their experiences in a useful and healthy way. </p>
-      <p className="blurb">This app is meant to help job-seekers reframe their experiences through repeated practice until they receive higher and higher “positivity scores.”</p>
+      <p className="blurb">innervue is a class group project created with Neri Ramirez and Wes Bailey.</p>
+      <p className="blurb">This app is meant to help job-seekers reframe their experiences through repeated practice until they receive higher and higher “positivity scores.” on responses to behavioral interview questions.</p>
     </div>
     <img className="display-pic" src={innervue2} alt="a screenshot of a blue web app. There is a text box under the title 'feedback' next to a list of questions under the title 'questions'."></img>
     <h1 className="underline hover hover1">key features</h1><br />
     <img className="display-pic" src={innervue3} alt="a screenshot of a blue web app. There is an illustrated thin woman in a pantsuit sitting on a laptop keyboard. Next to the woman, there is a white section with black text title 'analysis'."></img>
     <div className="blurb-container">
       <ul>
-        <li className="blurb">Users can type or speak their responses into a “feedback box” - which is one of several toggled views in React.js, which just means something different is shown on the screen depending on user action, like clicking a button. </li>
+        <li className="blurb">Users can type or speak their responses into a form and submit for feedback on their response.</li>
         <li className="blurb">A custom sentiment analysis model that tracks words that were mentioned in a negative light and provides an overall positivity score, which is translated into “negative, moderately neutral, neutral, and positive” for the user. This model provides a bit of “feedback” based on user scores.</li>
         <li className="blurb">Users can select a variety of different behavioral interview questions.
 </li>

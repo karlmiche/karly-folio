@@ -77,9 +77,14 @@ const Innervue = () => {
     <h1 className="underline hover hover1">key features</h1><br />
     <img src={loveorder4} className="display-pic" alt="a screenshot of a light tan web app"></img>
     <div className="blurb-container">
+      <h2 className="blurb">App Structure</h2>
       <p className="blurb">This project features two main views: users can toggle between “poem view” and an aptly-named “What Is This?”</p>
-      <p className="blurb">The poem view allows a user to generate a random sonnet(ish) from comments on New York Times articles. I have to disclaim the sonnet as only a sonnet, ish, because the sonnet is “hard-coded,” where you have to write a lot of code by hand to create a solution. I broke down the syntax, or parts of speech in a sonnet, and have some functions that categorize and sort these parts of speech from the comments. This is why the poem returned looks fairly similar each time you click for a new poem, it’s essentially made from a template. </p>
-      <p className="blurb">The second section is a brief “scrollytelling” - where information is passed to a user in bits and bits in a scroll-based animation - explaining what Natural Language Processing is, why the poem doesn’t really make sense or seem as if it’s written by humans, and demonstrates the “template” that I cooked up using the Google NLP API. </p>
+      <p className="blurb">The poem view allows a user to generate a random sonnet(ish) from comments on New York Times articles. </p>
+      <h2 className="blurb">Sonnet(ish)</h2>
+      <p className="blurb">I have to disclaim the sonnet as only a sonnet, ish, because the sonnet is “hard-coded,” where you have to write a lot of code by hand to create a solution.</p>
+      <p className="blurb"> I broke down the syntax to categorize and sort parts of speech from the comments. This is why the poem returned looks fairly similar each time you click for a new poem, it’s essentially made from a template. </p>
+      <h2 className="blurb">Scrollytelling</h2>
+      <p className="blurb">The second section is a brief “scrollytelling” - where information is passed to a user in bits and bits in a scroll-based animation. </p>
     </div>
     <img src={loveorder5} className="display-pic" alt="screenshot of a light tan web app with a section of code on the page."></img>
     <h1 className="underline hover hover1">lessons learned</h1><br />

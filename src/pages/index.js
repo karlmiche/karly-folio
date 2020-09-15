@@ -122,7 +122,8 @@ const IndexPage = () => {
       <section>
       <h3 className="underline hover hover1">love and order</h3>
       <Link to="/loveorder"><h4>view project</h4></Link>
-      <img src={loveorder1} className="intro-pic" alt="a screenshot of the words 'love and order.'"></img>
+      <img src={loveorder1} className="intro-pic" alt="a screenshot of the words 'love and order.'" style={{
+      }}></img>
       </section>
     </div>
     <div className="connect-container">

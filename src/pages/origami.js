@@ -38,10 +38,13 @@ const Origami = () => {
       <p className="blurb">While this game is simple, I ended up utilizing some highly transferable skills for day-to-day development.</p>
     </div>
     <h1 className="underline hover hover1">project purpose</h1><br />
-    <p className="blurb blurb-blue">Initially, I was so excited about JavaScript and what I could do now that I was beginning to understand DOM manipulation that I decided to build a Tamagotchi-style pet for our first class project. </p>
-    <p className="blurb blurb-blue">I knew I didn't really want to do something similar to what we learned in class, which was a “crawler” game that focused on keyboard manipulation and called back to early-days Pokemon or Zelda. I couldn’t sleep thinking about the game I would make from scratch, how I would for once learn to fold a paper crane, and model game assets off of its photographs. I ordered googly eyes on Amazon. I was ready.</p>
+    <div className="blurb-container">
+    <p className="blurb">I knew I didn't really want to do something similar to what we learned in class, which was a “crawler” game that focused on keyboard manipulation and called back to early-days Pokemon or Zelda. I decided to make a Tamagotchi-style game instead.</p>
+    </div>
     <h1 className="underline hover hover1">key features</h1><br />
-    <p className="blurb blurb-green">What I quickly learned through conversations with my instructors was that to build this game, I would need to utilize the JavaScript Date object and local storage. The Date object is used to make sure web and native services are displayed correctly based on a user’s timezone. Imagine scheduling apps that are only displayed in Eastern Standard Time! That would be messy. </p>
+    <div className="blurb-container">
+    <p className="blurb">What I quickly learned through conversations with my instructors was that to build this game, I would need to utilize the JavaScript Date object and local storage. The Date object is used to make sure web and native services are displayed correctly based on a user’s timezone. Imagine scheduling apps that are only displayed in Eastern Standard Time! That would be messy. </p>
+    </div>
     <img src={origami2} className="display-pic" alt="screenshot from a Tamagotchi-style game with a red bird"></img>
     <div className="blurb-container">
       <p className="blurb">Local storage is to get around the “statelessness” of HTTP; local storage is like a technological “bookmark” for where you last “were” on a web page or application. Otherwise, when you left the browser or refreshed the page, it would be as if you had never interacted with the page at all. </p>

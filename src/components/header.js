@@ -33,7 +33,7 @@ const Header = ({ siteTitle }) => (
         display: "flex",
         justifyContent: "space-between",
         width: "20%",
-        marginLeft: "80%",
+        marginLeft: "60%",
       }}>
       <a href="https://github.com/karlmiche"><img className="social-icons" alt="github social icon - the logo is a cat with eight arms"
       src={github}></img></a>

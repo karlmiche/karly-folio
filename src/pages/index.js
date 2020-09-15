@@ -122,6 +122,9 @@ const IndexPage = () => {
       <img src={loveorder1} className="intro-pic" alt="a screenshot of the words 'love and order.'"></img>
       </section>
     </div>
+    <div className="connect-container">
+          <h4>let's connect @ karlymism@gmail.com<span role="img" aria-label="enevelope with an e emoji" style={{margin: "10px"}}>📧</span></h4>
+      </div>
   </Layout>
 )
   }

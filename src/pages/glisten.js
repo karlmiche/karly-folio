@@ -77,8 +77,8 @@ const Glisten = () => {
     <h1 className="underline hover hover1">lessons learned</h1><br />
     <div className="blurb-container">
       <ul>
-        <li className="blurb">A little bit more about “gzip-encoding”. The way a file’s content encoding is sent to the Google Storage API controlled whether or not a file could be transcribed. I didn’t understand at first, why files sent to the Google Bucket could not be played (or transcribed). </li>
-        <li className="blurb">I also learned more about asking for help, or resourcing to connections who know more in a highly specific area to get a job finished more quickly. I learned that I don’t want to be the coworker who gets stuck in secret - I want to be efficient about solving problems and honest about when I need to resource for help! For example, I hadn’t yet learned about content-encoding when coming across this issue, but I was able to learn from someone who did know, as well as perform my own research to gain competency.</li>
+        <li className="blurb">A little bit more about “gzip-encoding”. The way a file’s content encoding is sent to the Google Storage API controlled whether or not a file could be transcribed.</li>
+        <li className="blurb">I also learned more about resourcing to connections with specific knowledge. I don’t want to be the coworker who gets stuck in secret - I want to be efficient about solving problems and honest about when I need to resource for help!</li>
         <li className="blurb">I learned more about using Multer to handle file uploads!</li>
         <li className="blurb">Besides content-encoding, my most important skill acquired from making this app was the ability to use modern browser APIs and speech recognition. Having learned in-browser speech recognition, it will be easier to learn text-to-speech, something that helps many users with disabilities more fully access the web.</li>
         <li className="blurb">Last but not least, I learned to wrangle Google Cloud Products and the Google Cloud Developer Console.</li>
@@ -88,9 +88,8 @@ const Glisten = () => {
     <h1 className="underline hover hover1">next steps and updates</h1><br />
     <div className="blurb-container">
       <p className="blurb">At this moment, glisten can only accept preformatted files and has some issues with deployment via Heroku.</p>
-      <p className="blurb">First, I noticed when you are transcribing long audio files, Heroku sends you to an “application error” page! However, the transcription is created and added to your database, so if you navigate back to “My transcriptions,” the transcribed audio will be there. I plan to create a workaround so that transcription, which does genuinely take several seconds, is displayed as “loading.” If this does not work, I will try deploying on a different service than Heroku. </p>
-      <p className="blurb">Next, audio files can only be uploaded if they are converted to a very specific format as prescribed by the Google Speech-to-Text API. I am currently working to recreate the app using FFMPEG, a command line library to manipulate files. Through FFMPEG, I plan to modify the app so any type of audio file is accepted as an input.</p>
-      <p className="blurb">Finally, I’d like to tweak the styling of the app, since I have learned more and more about CSS and the Materialize framework since this project was first created. </p>
+      <p className="blurb">First, I noticed when you are transcribing long audio files, Heroku sends you to an “application error” page! However, the transcription is created and added to your database, so if you navigate back to “My transcriptions,” the transcribed audio will be there. I plan to create a workaround so that transcription, which does genuinely take several seconds, is displayed as “loading.”</p>
+      <p className="blurb">Next, audio files can only be uploaded if they are converted to a very specific format as prescribed by the Google Speech-to-Text API. I am currently working to recreate the app using FFMPEG, a command line library to convert files.</p>
     </div>
     <Link to="/"><h3>homepage</h3></Link>
     <Link to="https://p2-glisten.herokuapp.com/home"><h3>live link</h3></Link>

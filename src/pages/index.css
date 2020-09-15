@@ -76,10 +76,6 @@
   }
 
   .blurb-container {
-    box-shadow: 4px 3px 6px rgb(160, 160, 160);
-    background: rgb(100, 78, 221);
-    border-radius: 30px;
-    padding: 15px;
     margin-bottom: 5%;
   }
 
@@ -89,6 +85,36 @@
       color: white;
       font-weight: 800;
   }
+
+  .blurb-blue{
+    margin-top: 10px;
+    opacity: 0.2;
+    color: white;
+    font-weight: 800;
+    box-shadow: 4px 3px 6px rgb(160, 160, 160);
+    background: rgb(78, 140, 221);
+    border-radius: 30px;
+    padding: 15px;
+}
+
+.blurb-green {
+  margin-top: 10px;
+  opacity: 0.2;
+  color: rgb(255, 254, 254);
+  font-weight: 800;
+  box-shadow: 4px 3px 6px rgb(160, 160, 160);
+  background: rgb(39, 180, 103);
+  border-radius: 30px;
+  padding: 15px;
+}
+
+.blurb-container {
+  margin: 1%;
+  box-shadow: 4px 3px 6px rgb(160, 160, 160);
+  background: rgb(100, 78, 221);
+  border-radius: 30px;
+  padding: 15px;
+}
 
   .intro-pic { 
     transition: all .2s ease-in-out; 

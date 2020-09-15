@@ -44,10 +44,13 @@ const IndexPage = () => {
     <img className="circle" src={me2} alt="a fat, white woman with brown hair, red lipstick, and glasses"></img>
     </div>
     <div className="blurb-container">
-    <p className="blurb">Two-and-a-half-years ago, I was scribbling out what I called “wireframes” for a policy manual outlining a framework for how “evidence-based” a practice was. My notes and drafts got so complicated a supervisor would walk by and say, “hey there, ‘beautiful mind!’ A policy manual for a city government office - that’s got nothing to do with coding, right?</p>
-    <p className="blurb">It had more to do with coding than I knew. Working as a legal extern showed me that I care deeply about making tools people can use, click, and otherwise interface with in any way they choose. It showed me I care a lot about how information is displayed and organized (dare I say how data is visualized?) so people can make informed choices.</p>
-    <p className="blurb">I know now I can use web development to get that sweet spot of information/interaction to help people think a little deeper about problems they deal with day-to-day, and took a twelve-week software engineering immersive program to prove it. Right now, I’m honing my React skills, experimenting with Natural Language Processing, and learning more and more about CSS and animation libraries like GSAP.</p>
-    <p className="blurb">I am seeking full-time work where I can put my compassion for others and love of data to good use, and towards better user experiences for all.</p>
+    <p className="blurb">Two-and-a-half-years ago, I was scribbling out what I called “wireframes” for a policy manual outlining a framework for how “evidence-based” a practice was.</p> 
+    <p className="blurb">My notes and drafts got so complicated a supervisor would walk by and say, “hey there, ‘beautiful mind!’ A policy manual for a city government office - that’s got nothing to do with coding, right?</p>
+    {/* <p className="blurb">It had more to do with coding than I knew. Working as a legal extern showed me that I care deeply about making tools people can use, click, and otherwise interface with in any way they choose. </p> */}
+    <p className="blurb">It had more to do with code than I knew. It showed me I care a lot about how information is displayed and organized (dare I say how data is visualized?) so people can make informed choices.</p>
+    <p className="blurb">I know now I can use web development to get that sweet spot of information/interaction to help people think a little deeper about problems they deal with day-to-day, and took a twelve-week software engineering immersive program to prove it. </p>
+    <p className="blurb">Right now, I’m honing my React skills, experimenting with Natural Language Processing, and learning more and more about CSS and animation libraries like GSAP.</p>
+    {/* <p className="blurb">I am seeking full-time work where I can put my compassion for others and love of data to good use, and towards better user experiences for all.</p> */}
     </div>
     <div>
       <h1 className="underline hover hover1">skills</h1>

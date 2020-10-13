@@ -157,3 +157,39 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+/* MOTO G4 MEDIA QUERY */
+@media only screen and (max-width: 360px) and (max-height: 640px) {
+  .desktop-skills-container {
+    display: none;
+  }
+
+  .mobile-skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* MOTO G4 MEDIA QUERY */
+@media only screen and (max-width: 540px) and (max-height: 720px) {
+  .desktop-skills-container {
+    display: none;
+  }
+
+  .mobile-skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Galaxy Fold */
+@media only screen and (max-width: 280px) and (max-height: 653px) {
+  .desktop-skills-container {
+    display: none;
+  }
+
+  .mobile-skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

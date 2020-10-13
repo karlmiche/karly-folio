@@ -38,7 +38,6 @@
   width: 250px;
   border-radius: 50%;
   box-shadow: 3px 3px darkblue;
-  opacity: 0.5;
 }
 
 .underline {
@@ -96,7 +95,6 @@
 
 .blurb {
   margin-top: 10px;
-  opacity: 0.2;
   color: white;
   font-weight: 800;
 }

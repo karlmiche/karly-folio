@@ -27,9 +27,19 @@ const Header = ({ siteTitle }) => (
         style={{
           textDecoration: "none",
           color: "rgb(100, 78, 221)",
+          marginRight: "20px",
         }}
       >
         <h2>home</h2>
+      </Link>
+      <Link
+        to="https://drive.google.com/file/d/19SpxyfGCiAit6j0fSQq28afIo-7UElCg/view?usp=sharing"
+        style={{
+          textDecoration: "none",
+          color: "rgb(100, 78, 221)",
+        }}
+      >
+        <h2>resume</h2>
       </Link>
       <div
         className="social-icon-container"
